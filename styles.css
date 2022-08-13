@@ -29,7 +29,6 @@ h2 {
 }
 
 /* Header  */
-
 .logo {
     font-size: 24px;
     color: #F9FAF8;
@@ -51,7 +50,6 @@ header {
 }
 
 /* Main content  */
-
 .content {
     display: flex;
     flex-direction: column;
@@ -59,7 +57,6 @@ header {
 }
 
 /* Container 1 */
-
 .container-1 {
     background-color: #1F2937;
     display: flex;
@@ -79,7 +76,6 @@ header {
 }
 
 /* Container 2 */
-
 .container-2 {
     margin-top: 20px;
     display: flex;
@@ -140,9 +136,19 @@ header {
     justify-content: flex-end;
 }
 
+/* Container 4 */
+.container-4 {
+    background-color: #3882F6;
+    margin: 100px;
+    padding: 25px 75px 25px 75px;
+    color:#e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
 /* Footer  */
-
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -153,16 +159,22 @@ footer {
 }
 
 /* Button styling */
-
 #signupbtn-1 {
-    color: white;
+    color: #F9FAF8;
     background-color: #3882F6;
     padding: 6px 16px 6px 16px;
-    border-radius: 8px;
+    border-radius: 6px;
+}
+
+.container-4 button {
+    background-color: #3882F6;
+    padding: 6px 30px 6px 30px;
+    border-radius: 6px;
+    border-color: white;
+    color: white;
 }
 
 /* Placeholder img */
-
 #placeholder-img {
     background-color: #6d747d;
     color: #e5e5e5;
