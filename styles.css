@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 a {
@@ -13,6 +14,12 @@ a {
 
 li {
     list-style: none;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
 
 /* Header  */
@@ -34,9 +41,10 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding: 5px 100px 5px 100px;
 }
 
-
+/* Main content  */
 
 .content {
     display: flex;
@@ -44,10 +52,61 @@ header {
     align-items: space-between;
 }
 
+/* Container 1 */
+
+.container-1 {
+    background-color: #1F2937;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;	
+    padding: 5px 100px 5px 100px;
+
+}
+
+.container-1 div {
+    width: 400px;
+}
+
+.container-1 div p {
+    color: #e5e5e5;
+}
+
+/* Container 2 */
+
+
+
+
+
+
+/* Footer  */
+
 footer {
     background-color: #1F2937;
     color: #F9FAF8;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button styling */
+
+#signupbtn-1 {
+    color: white;
+    background-color: #3882F6;
+    padding: 6px 16px 6px 16px;
+    border-radius: 8px;
+}
+
+/* Placeholder img */
+
+#placeholder-img {
+    background-color: #6d747d;
+    color: #e5e5e5;
+    width: 400px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
