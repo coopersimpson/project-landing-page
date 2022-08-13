@@ -8,18 +8,35 @@ body {
 
 a {
     text-decoration: none;
-    color: rgb(55, 55, 55);
+    color: #e5e5e5
 }
 
 li {
     list-style: none;
 }
 
+/* Header  */
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
+    background-color: #1F2937;
 }
+
+
 
 .content {
     display: flex;
