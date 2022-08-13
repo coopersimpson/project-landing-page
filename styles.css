@@ -109,7 +109,36 @@ header {
     border-radius: 20px;
 }
 
+/* Containter 3 */
+.container-3 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 75px 200px 75px 200px;
+    align-items: center;
+}
 
+.container-3 .quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 750px;
+    padding-bottom: 20px;
+    display: flex;
+    flex: initial;
+    justify-content: flex-start;
+}
+
+.container-3 .thor {
+    font-weight: bold;
+    font-size: 24px;
+    width: 750px;
+    display: flex;
+    flex: initial;
+    justify-content: flex-end;
+}
 
 
 /* Footer  */
